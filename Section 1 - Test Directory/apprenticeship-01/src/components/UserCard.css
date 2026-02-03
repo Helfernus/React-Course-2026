@@ -1,0 +1,89 @@
+/* .card {
+  background-color: #86bae4;
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 4px 1px #2e353a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  color: #2e353a;
+  gap: 0.2rem;
+
+  h2 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .toggle-details {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #4f5e69;
+  }
+
+  .details {
+    font-size: small;
+  }
+} */
+
+.card {
+  background-color: #86bae4;
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 4px 1px #2e353a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  color: #2e353a;
+  gap: 0.2rem;
+}
+
+.card h2 {
+  font-size: large;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+  margin: auto;
+}
+
+.toggle-details {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #4f5e69;
+}
+
+.details {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  font-size: small;
+}
+
+.details.show {
+  opacity: 1;
+  max-height: 500px; /* large enough to fit the content */
+}
+
+.details.hide {
+  opacity: 0;
+  max-height: 0;
+}

@@ -1,0 +1,49 @@
+/* @import "tailwindcss"; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1020;
+  color: #e7ebf3;
+}
+
+button {
+  background: #23283b;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #3b4252;
+  color: #e7ebf3;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+li {
+  margin: 6px 0;
+}
+
+.app-main {
+  font-family: 'Inter', system-ui, sans-serif;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 16px;
+}
+
+.status-label {
+  font-weight: 400;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.divider {
+  margin: 24px;
+}

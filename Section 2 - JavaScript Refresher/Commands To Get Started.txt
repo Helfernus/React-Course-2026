@@ -1,0 +1,5 @@
+1. Run on an empty directory - npm install lite-server --save-dev
+2. Add to package.json - "scripts": {
+    "dev": "lite-server"
+  }
+3. Start the server by using - npm run dev
